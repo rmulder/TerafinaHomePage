@@ -1,0 +1,39 @@
+/*
+WARNING: mobile-dsp.less is used to dynamically generate mobile-dsp.css. Do *NOT* edit mobile-dsp.css directly!!
+Declare LESS Variables here:
+*/
+/*
+@defaultFontFamilyBoldUrl: url('../css/fonts/aller_bd-webfont.eot');
+@defaultFontFamilyBoldIEUrl: url('../css/fonts/aller_bd-webfont.eot?#iefix');
+@defaultFontFamilyBoldWoffUrl: url('../css/fonts/aller_bd-webfont.woff');
+@defaultFontFamilyBoldTTFUrl: url('../css/fonts/aller_bd-webfont.ttf');
+@defaultFontFamilyBoldSVGUrl: url('../css/fonts/aller_bd-webfont.svg#allerbold');
+
+@defaultFontFamilyRegular: @defaultFontFamilyBold;
+@defaultFontFamilyRegularUrl: @defaultFontFamilyBoldUrl;
+@defaultFontFamilyRegularIEUrl: @defaultFontFamilyBoldIEUrl;
+@defaultFontFamilyRegularTTFUrl: @defaultFontFamilyBoldTTFUrl;
+@defaultFontFamilyRegularSVGUrl: @defaultFontFamilyBoldSVGUrl;
+*/
+.logo {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url('../images/terafina-logo.jpg') no-repeat;
+  width: 800px;
+  /* Width of new image */
+
+  height: 261px;
+  /* Height of new image */
+
+  padding-left: 800px;
+  /* Equal to width of new image */
+
+  margin-left: 20px;
+}
+#docs {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
